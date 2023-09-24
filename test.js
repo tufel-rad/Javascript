@@ -1,1 +1,1 @@
-console.log("Hello Tufel Rad")
+console.log("Tufel Rad")
