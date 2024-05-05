@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="submit.php" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <!-- INSERT INTO `form_data` (`id`, `name`, `email`, `msg`, `date`) VALUES ('1', 'Farhan', 'farhan111@gmail.com', 'Hello ', 'current_timestamp(6).000000'); -->
+
+</body>
+</html>
